@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+        <meta charset="UTF-8">
+        <title>Reto 2</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/misFunciones.js"></script>
+    
+</head>
+
+<body>
+        <div style="text-align: center;">       
+            <h1> Auditorio</h1>
+            <div>
+            <input type="number" id="id" placeholder="id"><br>
+            <input type="text" id="owner" placeholder="owner"><br>
+            <input type="number" id="capacity" placeholder="capacity"><br>
+            <input type="number" id="category_id" placeholder="category_id"><br>
+            <input type="text" id="name" placeholder="name"><br>
+            </div>
+            <br>
+            <div id="resultadoInformacion"></div>
+            <button onclick="traerInformacion()"> Consultar </button> 
+            <br>
+            <button onclick="guardarInformacion()">Guardar!</button>
+            <button onclick="editarInformacion()">Actualizar!</button>
+            <button onclick="borrarInformacion()">Borrar</button>
+
+
+
+        <div style="text-align: center;">              
+            <h1> Cliente</h1>
+            <div>
+            <input type="number" id="idCliente" placeholder="id"><br>
+            <input type="text" id="nameCliente" placeholder="name"><br>
+            <input type="text" id="email" placeholder="email"><br>
+            <input type="number" id="age" placeholder="age"><br>
+            <div>
+            <br>
+            <div id="resultadoCliente"></div>
+            <button onclick="traerCliente()"> Consultar </button>
+            <br>
+            <button onclick="guardarCliente()">Guardar!</button>
+            <button onclick="editarCliente()">Actualizar!</button>
+            <button onclick="borrarCliente()">Borrar</button>
+
+
+
+        <div style="text-align: center;">
+            <h1> Mensaje</h1>     
+            <div>
+            <input type="number" id="idMensaje" placeholder="id"><br>
+            <input type="text" id="messagetext" placeholder="messagetext"><br>
+            </div>
+            <div id="resultadoMensaje"></div>
+            <button onclick="traerMensaje()"> Consultar </button>        
+            <button onclick="guardarMensaje()">Guardar!</button>
+            <button onclick="editarMensaje()">Actualizar!</button>
+            <button onclick="borrarMensaje()">Borrar</button>
+
+
+</body>
+
+
+</html>
